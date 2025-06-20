@@ -155,6 +155,26 @@ Each is color-coded using *visually distinct and non-similar colors* for clarity
 
 ---
 
+## Real-World Use Cases
+
+- *Autonomous Driving*: Self-driving car perception module.
+- *Smart Road Monitoring*: Detect potholes, sidewalk damage, crowding.
+- *AI Education*: Learn segmentation models hands-on.
+- *Urban Planning*: Visualize how cities can better design roads.
+- *Traffic Analytics*: Understand road usage in different conditions.
+
+---
+
+## Future Enhancements
+
+- Add instance-level segmentation (detect each car/person separately)
+- Add mouse-click label display on segmented images
+- Video file input for recorded dashcam footage
+- Train for weather generalization (rain, fog, night)
+- Convert to mobile app with TensorFlow Lite or ONNX
+
+---
+
 ## Acknowledgements
 
 - [IDD Dataset - IIIT Hyderabad](https://idd.insaan.iiit.ac.in/)
