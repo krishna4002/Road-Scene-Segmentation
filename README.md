@@ -35,7 +35,7 @@ This project uses:
 
 ## 📁 Project Structure
 
-
+```
 Road Scene Segmentation for Autonomous Driving/
 ├── app.py                       # Main Streamlit UI
 ├── realtime.py                 # Optional: Opens webcam in separate window
@@ -47,7 +47,7 @@ Road Scene Segmentation for Autonomous Driving/
 │   └── pothole-detection/      # Roboflow dataset (COCO Seg format)
 ├── requirements.txt            # Required Python packages
 └── README.md
-
+```
 
 ---
 
