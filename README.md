@@ -4,36 +4,36 @@ This project is a smart AI tool that *automatically identifies different objects
 
 ---
 
-## 🔍 What This Project Does (For Everyone)
+## What This Project Does
 
-- 🧠 It uses *AI to understand road scenes* from camera input.
-- 🚘 It was trained on *real driving data from Indian roads* and *pothole images*.
-- 🎥 It works in real-time with a *webcam* or with *uploaded road images*.
-- 🎨 It shows you different parts of the road in *colored labels* so you can understand what the AI sees.
+- It uses *AI to understand road scenes* from camera input.
+- It was trained on *real driving data from Indian roads* and *pothole images*.
+- It works in real-time with a *webcam* or with *uploaded road images*.
+- It shows you different parts of the road in *colored labels* so you can understand what the AI sees.
 
 ---
 
-## 🧠 Behind the Scenes (For Technical Users)
+## Behind the Scenes
 
 This project uses:
-- ✅ A *DeepLabV3 semantic segmentation model*
-- ✅ Trained on *IDD (India Driving Dataset)* + *Roboflow pothole dataset*
-- ✅ Supports 28 classes: 27 from IDD, 1 pothole
-- ✅ Written in *Python* using *PyTorch* and *Streamlit* for the UI
+- A *DeepLabV3 semantic segmentation model*
+- Trained on *IDD (India Driving Dataset)* + *Roboflow pothole dataset*
+- Supports 28 classes: 27 from IDD, 1 pothole
+- Written in *Python* using *PyTorch* and *Streamlit* for the UI
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🛣 Recognizes and segments road, lanes, vehicles, buildings, sky, people, potholes, etc.
-- 📸 Works with uploaded images
-- 🎥 Works live with a webcam stream
-- 🖍 Displays *color-coded masks* with a *legend* for 28 classes
-- ✅ Easy to use – no coding knowledge required to run the app
+- Recognizes and segments road, lanes, vehicles, buildings, sky, people, potholes, etc.
+- Works with uploaded images
+- Works live with a webcam stream
+- Displays *color-coded masks* with a *legend* for 28 classes
+- Easy to use – no coding knowledge required to run the app
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Road Scene Segmentation for Autonomous Driving/
@@ -51,7 +51,7 @@ Road Scene Segmentation for Autonomous Driving/
 
 ---
 
-## 🛠 How to Use (Simple Steps)
+## How to Use (Simple Steps)
 
 ### Step 1: Install Everything
 
@@ -67,12 +67,12 @@ pip install -r requirements.txt
 
 ### Step 2: Download the Datasets
 
-#### ✅ IDD Dataset (Manual Step)
+#### IDD Dataset (Manual Step)
 - Go to: https://idd.insaan.iiit.ac.in/
 - Download: *IDD Segmentation Part I*
 - Extract it inside data/idd_segmentation/
 
-#### ✅ Roboflow Pothole Dataset (Automatic)
+#### Roboflow Pothole Dataset (Automatic)
 Already integrated into the app using Roboflow API:
 ```python
 from roboflow import Roboflow
@@ -94,21 +94,21 @@ streamlit run app.py
 
 ---
 
-## 🎮 Two App Modes
+## Two App Modes
 
 ### 📸 Image Segmentation Mode
 - Upload a photo of a road
 - AI will highlight roads, cars, people, sky, potholes, etc.
 - Colored result + class legend displayed
 
-### 🎥 Real-Time Segmentation Mode
+### Real-Time Segmentation Mode
 - Turn on your webcam
 - AI will segment and label objects *live*
 - Helps simulate how self-driving cars "see" the road
 
 ---
 
-## 🧾 Class Legend (28 Classes)
+## Class Legend (28 Classes)
 
 The app shows a *legend* (key) for each class and its color.
 | ID | Class Name     |
@@ -146,7 +146,7 @@ Each is color-coded using *visually distinct and non-similar colors* for clarity
 
 ---
 
-## 🧠 How the Model Works
+## How the Model Works
 
 - Based on *DeepLabV3 with ResNet-50*
 - Re-trained with custom final layer: 28 output channels
@@ -155,19 +155,7 @@ Each is color-coded using *visually distinct and non-similar colors* for clarity
 
 ---
 
-## 👀 Example Results
-
-> (Add screenshots or demo GIFs here showing before and after segmentation on real roads and webcam)
-
----
-
-## 📄 License
-
-This project is licensed under the *MIT License* — you are free to use, modify, and distribute it.
-
----
-
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [IDD Dataset - IIIT Hyderabad](https://idd.insaan.iiit.ac.in/)
 - [Roboflow Pothole Dataset](https://roboflow.com/)
@@ -176,7 +164,3 @@ This project is licensed under the *MIT License* — you are free to use, modify
 
 ---
 
-## 📬 Feedback or Contributions
-
-💡 Ideas, bug reports, or contributions? Open an issue or PR on GitHub!  
-🔗 GitHub: https://github.com/YOUR_USERNAME/road-scene-segmentation
