@@ -1,6 +1,6 @@
 # 🛣 Road Scene Segmentation for Autonomous Driving
 
-This project is a smart AI tool that *automatically identifies different objects and elements on the road, such as vehicles, pedestrians, lanes, potholes, sidewalks, traffic signs, and more. It can work with images and even in **real time using your webcam**, making it suitable for **self-driving car research, **smart city applications, and **road safety monitoring*.
+This project is a smart AI tool that *automatically identifies different objects and elements on the road, such as vehicles, pedestrians, lanes, potholes, sidewalks, traffic signs, and more. It can work with images and even in **real time using your webcam**, making it suitable for **self-driving car research**, **smart city applications**, and **road safety monitoring**.
 
 ---
 
