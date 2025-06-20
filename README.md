@@ -56,14 +56,14 @@ Road Scene Segmentation for Autonomous Driving/
 ### Step 1: Install Everything
 
 #### Option A: Easy way (recommended for beginners)
-bash
+```bash
 python -m venv venv
 venv\Scripts\activate          # For Windows
 # or
 source venv/bin/activate       # For Linux/macOS
 
 pip install -r requirements.txt
-
+```
 
 ### Step 2: Download the Datasets
 
@@ -74,23 +74,23 @@ pip install -r requirements.txt
 
 #### ✅ Roboflow Pothole Dataset (Automatic)
 Already integrated into the app using Roboflow API:
-python
+```python
 from roboflow import Roboflow
 rf = Roboflow(api_key="YOUR_API_KEY")
 project = rf.workspace("jay-ngdms").project("pothole-detection-system-rnoh4-xjw6w")
 version = project.version(1)
 version.download("coco-segmentation")
-
+```
 
 ### Step 3: Preprocess the Dataset
-bash
+```bash
 python preprocess.py
-
+```
 
 ### Step 4: Run the App
-bash
+```bash
 streamlit run app.py
-
+```
 
 ---
 
